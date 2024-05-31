@@ -1,0 +1,56 @@
+.classDiv1{
+    width: 600px;
+    margin: auto;
+}
+
+
+.classDiv11{
+    text-align: center;
+    font-size:larger;
+    font-weight: 900;
+}
+
+
+.classDiv12{
+
+    display: flex;
+}
+
+
+.classDiv121{
+    width: 50%;
+    margin: auto;
+}
+
+.classDiv122{
+    width: 45%;
+    text-align: right;
+    position: fixed;
+}
+
+
+.classPostTable{
+    width: 100%;
+    border: 2px solid blue;
+    border-collapse: collapse;
+    margin: auto;
+}
+
+
+.classPostTable td,.classDailyTable th{
+    border: 1px solid blue;
+    text-align: center;
+}
+
+
+.NormalTdClass{
+    color: black;
+    background-color: white(252, 244, 234);
+}
+
+
+.HightlightTd1Class, .HightlightTd2Class{
+    color: white;
+    background-color: rgb(75, 43, 5);
+    font-weight: 900;
+}

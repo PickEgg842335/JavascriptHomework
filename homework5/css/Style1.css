@@ -1,0 +1,126 @@
+.classField1{
+    width: 700px;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: 8px 8px rgb(91, 91, 91);
+}
+
+
+.classDivTitle h2{
+    width: 70px;
+    border: 2px solid rgb(255, 128, 0);
+    border-radius: 10px;
+    background-color: rgb(255, 128, 0);
+    text-align: center;
+    font-weight: 900;
+}
+
+
+.classDivCenter{
+    height: 300px;
+    display: flex;
+}
+
+
+.classDiv1CenterL2{
+    width: 65%;
+}
+
+
+.classDiv11CenterL3{
+    text-align: left;
+    font-weight: 900;
+}
+
+
+.classDiv11CenterL3 span{
+    line-height: 0em;
+}
+
+
+.classDiv12CenterL3 span{
+    line-height: 0em;
+}
+
+
+.classDiv13CenterL3{
+    height: 42%;
+    width: 100%;
+    margin: 65px 0px;
+}
+
+.classDiv2CenterL2{
+    width: 35%;
+}
+
+
+.classDiv21CenterL3{
+    border: 2px solid rgb(4, 40, 70);
+    background-color: rgb(4, 40, 70);
+    color: white;
+    text-align: left;
+    font-weight: 900;
+    margin: 1px 1px 1px 1px; 
+}
+
+
+.classDiv21S1CenterL3{
+    line-height: 0em;
+}
+
+
+.classDiv22CenterL3{
+    border: 2px solid rgb(4, 40, 70);
+    height: 90%;
+    margin: 1px 1px 1px 1px; 
+}
+
+.classMsgOut{
+    font-weight: 500;
+}
+
+
+.classDivBottom{
+    border: 2px solid rgb(4, 40, 70);
+    background-color: rgb(4, 40, 70);
+    color: white;
+    text-align: center;
+}
+
+
+.classDivBottom p{
+    line-height: 1em;
+}
+
+
+.classDailyTable{
+    width: 80%;
+    border-collapse: collapse;
+    margin: auto;
+    table-layout: fixed;
+}
+
+
+.classDailyTable td,.classDailyTable th{
+    border: 1px solid white;
+    text-align: center;
+}
+
+
+.classDailyTable th{
+    color: white;
+    background-color: rgb(4, 40, 70);
+}
+
+
+.NormalTd{
+    color: black;
+    background-color: rgb(252, 244, 234);
+}
+
+
+.HightlightTd{
+    color: white;
+    background-color: rgb(75, 43, 5);
+    font-weight: 900;
+}

@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html lang="zh-tw">
+<head>
+    <meta charset="UTF-8">
+    <title>Homework2</title>
+    <link rel="stylesheet" href="./css/Style1.css">
+    <script src="./js/FromChk.js"></script>
+</head>
+<body>
+    <form action="#" method="get" enctype="multiple/form-data">
+        <fieldset class="filer">
+            <legend class="legendstyle"><h2>Form Check</h2></legend>
+            <div class="div1">
+                <label class="title1">姓名:</label>
+                <input type="text" id="idName" name="Myname" value="" placeholder="請輸入姓名">
+                <span id="idNameMsg"></span><br>
+                <div class="note1">
+                    (1.不可空白 2.至少兩個字以上 3.必須全部為中文字)
+                </div>
+            </div>
+            <div class="div1">
+                <label class="title1">密碼:</label>
+                <input type="password" id="idPwd" name="Mypassword" value="" placeholder="請輸入密碼，最少6字" maxlength="12">
+                <span id="idPwdMsg"></span><br>
+                <div class="note1">
+                    (1.不可空白 2.至少包含6個字且必須包含大寫及小寫英文字、數字、特殊字元[!@#$%^&*])
+                </div>
+            </div>
+            <div class="div1">
+                <label class="title1">日期:</label>
+                <input type="text" id="idDate" name="Mydate" value="" placeholder="請輸入年月日" maxlength="10">
+                <span id="idDateMsg"></span><br>
+                <div class="note1">
+                    格式:西元年/月/日(yyyy/mm/dd)
+                </div>
+            </div>
+        </fieldset>
+    </form>
+</body>
+</html>

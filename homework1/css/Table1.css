@@ -1,0 +1,39 @@
+/*總表樣式*/
+.table1{
+    /*定義表格寬度*/
+    width: 800px;
+    /*定義外框線粗細2px、實線、顏色black*/
+    border: 2px solid black;
+    /*共用框線*/
+    border-collapse:collapse;
+    /*表格置中*/
+    margin: auto;
+}
+/*標題儲存格、內容儲存格樣式*/
+.table1 th, .table1 td{
+    /*定義外框線粗細1px、實線、顏色black*/
+    border: 1px solid black;
+    /*共用框線*/
+    border-collapse:collapse;
+    /*儲存格文字置中*/
+    text-align: center;
+}
+/*標題儲存格樣式*/
+.table1 th{
+    /*標題儲存格定義背景色*/
+    background-color: rgb(139, 202, 160);
+}
+/*內容儲存格樣式偶數欄背景色*/
+.table1 td:nth-child(even){
+    /*內容儲存格定義背景色*/
+    background-color: rgb(160, 161, 179);
+}
+/*定義滑鼠指標指到內容儲存格樣式*/
+.table1 td:hover{
+    /*背景色變更為RGB(214, 195, 89)*/
+    background-color: rgb(214, 195, 89);
+    /*文字顏色變更為Red*/
+    color:red;
+    /*文字變更為粗體*/
+    font-weight: 900;
+}

@@ -1,0 +1,28 @@
+.filer{
+    width: 500px;
+    border-radius: 20px;
+    margin: auto;
+    box-shadow: 8px 8px rgb(91, 91, 91);
+}
+
+.legendstyle{
+    color: rgb(18, 50, 207)
+}
+
+.div1{
+    border-bottom: 2px dashed gray;
+    width: 600px;
+    padding-bottom: 20px;
+    margin: 20px;
+}
+
+.title1{
+    float: left;
+    width: 45px;
+    text-align: left;
+}
+
+.note1{
+    color:rgb(196, 196, 196);
+    font-size: 12px;
+}
